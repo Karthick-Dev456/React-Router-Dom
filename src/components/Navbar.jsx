@@ -27,6 +27,12 @@ const Navbar = () => {
                 <li className="hover:text-gray-300 cursor-pointer">
                     <NavLink to="/blog">Blog</NavLink>
                 </li>
+                <li className="hover:text-gray-300 cursor-pointer">
+                    <NavLink to="/dashboard">Dashboard</NavLink>
+                </li>
+                <li className="hover:text-gray-300 cursor-pointer">
+                    <NavLink to="/query/page">Query-Parameters</NavLink>
+                </li>
             </ul>
 
             {/* Button */}

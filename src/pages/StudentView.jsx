@@ -18,7 +18,7 @@ const StudentView = () => {
             <p>Name: {student.name}</p>
             <p>Age: {student.age}</p>
             <p>Course: {student.course}</p>
-            <button onClick={() => navigate(-1)}>Back to Directory</button>
+            <button className='text-white bg-blue-400 rounded px-2 cursor-pointer' onClick={() => navigate(-1)}>Back to Directory</button>
         </div>
     )
 }

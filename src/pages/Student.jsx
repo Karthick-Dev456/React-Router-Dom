@@ -30,11 +30,11 @@ const Student = () => {
                             <td>{student.name}</td>
                             <td>{student.age}</td>
                             <td>{student.course}</td>
+                            {/* <td>
+                                <Link to={`/student/${student.id}`} state={{ student }}>View Profile</Link>
+                            </td> */}
                             <td>
-                                {/* <Link to={`/student/${student.id}`} state={{ student }}>View Profile</Link> */}
-                            </td>
-                            <td>
-                                <button onClick={() => navigate(`/student/${student.id}`, { state: { student } })}>View Profile</button>
+                                <button className='text-white bg-blue-400 rounded px-2 cursor-pointer' onClick={() => navigate(`/student/${student.id}`, { state: { student } })}>View Profile</button>
                             </td>
                         </tr>
                     ))}
